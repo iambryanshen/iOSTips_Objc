@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36901192047925D00EBD20F /* SingletonModeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D36901182047925D00EBD20F /* SingletonModeTool.m */; };
 		D3BEF4BD204642BA00904267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BEF4BC204642BA00904267 /* AppDelegate.m */; };
 		D3BEF4C5204642BA00904267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BEF4C4204642BA00904267 /* Assets.xcassets */; };
 		D3BEF4C8204642BA00904267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BEF4C6204642BA00904267 /* LaunchScreen.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D36901172047925D00EBD20F /* SingletonModeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonModeTool.h; sourceTree = "<group>"; };
+		D36901182047925D00EBD20F /* SingletonModeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonModeTool.m; sourceTree = "<group>"; };
 		D3BEF4B8204642BA00904267 /* iOSTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BEF4BB204642BA00904267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3BEF4BC204642BA00904267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				D3BEF4F5204649FE00904267 /* SFSingletonModeViewController.h */,
 				D3BEF4F6204649FE00904267 /* SFSingletonModeViewController.m */,
 				D3BEF4F7204649FE00904267 /* SFSingletonModeViewController.xib */,
+				D36901172047925D00EBD20F /* SingletonModeTool.h */,
+				D36901182047925D00EBD20F /* SingletonModeTool.m */,
 			);
 			path = SingletonMode;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36901192047925D00EBD20F /* SingletonModeTool.m in Sources */,
 				D3BEF4EB2046449700904267 /* SFNetworkNavigationController.m in Sources */,
 				D3BEF4F1204644B400904267 /* SFUIKitViewController.m in Sources */,
 				D3BEF50420465BAC00904267 /* SFGCDViewController.m in Sources */,
