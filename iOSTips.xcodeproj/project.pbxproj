@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30909F0206276F800AA751F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D30909EF206276F800AA751F /* Person.m */; };
+		D326B4D52060B81200D8EAEE /* SFReplicatorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4D32060B81200D8EAEE /* SFReplicatorDemoViewController.m */; };
+		D326B4D62060B81200D8EAEE /* SFReplicatorDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D326B4D42060B81200D8EAEE /* SFReplicatorDemoViewController.xib */; };
+		D326B4DA2060B82A00D8EAEE /* SFVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4D92060B82A00D8EAEE /* SFVCView.m */; };
+		D326B4E92060C09100D8EAEE /* SFParticleEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4E72060C09100D8EAEE /* SFParticleEffectsViewController.m */; };
+		D326B4EA2060C09100D8EAEE /* SFParticleEffectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D326B4E82060C09100D8EAEE /* SFParticleEffectsViewController.xib */; };
+		D326B4F02060C84A00D8EAEE /* SFParticleEffectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4EF2060C84A00D8EAEE /* SFParticleEffectsView.m */; };
 		D36901192047925D00EBD20F /* SingletonModeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D36901182047925D00EBD20F /* SingletonModeTool.m */; };
 		D3BEF4BD204642BA00904267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BEF4BC204642BA00904267 /* AppDelegate.m */; };
 		D3BEF4C5204642BA00904267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BEF4C4204642BA00904267 /* Assets.xcassets */; };
@@ -25,9 +32,25 @@
 		D3BEF4FE204656D700904267 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BEF4FD204656D700904267 /* Foundation+Log.m */; };
 		D3BEF50420465BAC00904267 /* SFGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BEF50220465BAC00904267 /* SFGCDViewController.m */; };
 		D3BEF50520465BAC00904267 /* SFGCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BEF50320465BAC00904267 /* SFGCDViewController.xib */; };
+		D3D65C19205A10A0000554CE /* SFSendMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D65C17205A10A0000554CE /* SFSendMsgViewController.m */; };
+		D3D65C1A205A10A0000554CE /* SFSendMsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D65C18205A10A0000554CE /* SFSendMsgViewController.xib */; };
+		D3D65C55205A22B4000554CE /* SFRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D65C54205A22B4000554CE /* SFRuntimeViewController.m */; };
+		D3EEC99A206342D200C95C36 /* UIImage+SFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EEC999206342D200C95C36 /* UIImage+SFImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D30909EE206276F800AA751F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D30909EF206276F800AA751F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D326B4D22060B81200D8EAEE /* SFReplicatorDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFReplicatorDemoViewController.h; sourceTree = "<group>"; };
+		D326B4D32060B81200D8EAEE /* SFReplicatorDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFReplicatorDemoViewController.m; sourceTree = "<group>"; };
+		D326B4D42060B81200D8EAEE /* SFReplicatorDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFReplicatorDemoViewController.xib; sourceTree = "<group>"; };
+		D326B4D82060B82A00D8EAEE /* SFVCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFVCView.h; sourceTree = "<group>"; };
+		D326B4D92060B82A00D8EAEE /* SFVCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFVCView.m; sourceTree = "<group>"; };
+		D326B4E62060C09100D8EAEE /* SFParticleEffectsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFParticleEffectsViewController.h; sourceTree = "<group>"; };
+		D326B4E72060C09100D8EAEE /* SFParticleEffectsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFParticleEffectsViewController.m; sourceTree = "<group>"; };
+		D326B4E82060C09100D8EAEE /* SFParticleEffectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFParticleEffectsViewController.xib; sourceTree = "<group>"; };
+		D326B4EE2060C84A00D8EAEE /* SFParticleEffectsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFParticleEffectsView.h; sourceTree = "<group>"; };
+		D326B4EF2060C84A00D8EAEE /* SFParticleEffectsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFParticleEffectsView.m; sourceTree = "<group>"; };
 		D36901172047925D00EBD20F /* SingletonModeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonModeTool.h; sourceTree = "<group>"; };
 		D36901182047925D00EBD20F /* SingletonModeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonModeTool.m; sourceTree = "<group>"; };
 		D3BEF4B8204642BA00904267 /* iOSTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +83,13 @@
 		D3BEF50120465BAC00904267 /* SFGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFGCDViewController.h; sourceTree = "<group>"; };
 		D3BEF50220465BAC00904267 /* SFGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFGCDViewController.m; sourceTree = "<group>"; };
 		D3BEF50320465BAC00904267 /* SFGCDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFGCDViewController.xib; sourceTree = "<group>"; };
+		D3D65C16205A10A0000554CE /* SFSendMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSendMsgViewController.h; sourceTree = "<group>"; };
+		D3D65C17205A10A0000554CE /* SFSendMsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFSendMsgViewController.m; sourceTree = "<group>"; };
+		D3D65C18205A10A0000554CE /* SFSendMsgViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFSendMsgViewController.xib; sourceTree = "<group>"; };
+		D3D65C53205A22B4000554CE /* SFRuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFRuntimeViewController.h; sourceTree = "<group>"; };
+		D3D65C54205A22B4000554CE /* SFRuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFRuntimeViewController.m; sourceTree = "<group>"; };
+		D3EEC998206342D200C95C36 /* UIImage+SFImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SFImage.h"; sourceTree = "<group>"; };
+		D3EEC999206342D200C95C36 /* UIImage+SFImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SFImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D326B4CF2060B7FC00D8EAEE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D326B4D02060B7FC00D8EAEE /* CoreAnimation */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D326B4D02060B7FC00D8EAEE /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D326B4E42060C06F00D8EAEE /* ParticleEffects */,
+				D326B4D12060B7FC00D8EAEE /* ReplicatorDemo */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		D326B4D12060B7FC00D8EAEE /* ReplicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D326B4D72060B82200D8EAEE /* View */,
+				D326B4D22060B81200D8EAEE /* SFReplicatorDemoViewController.h */,
+				D326B4D32060B81200D8EAEE /* SFReplicatorDemoViewController.m */,
+				D326B4D42060B81200D8EAEE /* SFReplicatorDemoViewController.xib */,
+			);
+			path = ReplicatorDemo;
+			sourceTree = "<group>";
+		};
+		D326B4D72060B82200D8EAEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D326B4D82060B82A00D8EAEE /* SFVCView.h */,
+				D326B4D92060B82A00D8EAEE /* SFVCView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D326B4E42060C06F00D8EAEE /* ParticleEffects */ = {
+			isa = PBXGroup;
+			children = (
+				D326B4E52060C07C00D8EAEE /* View */,
+				D326B4E62060C09100D8EAEE /* SFParticleEffectsViewController.h */,
+				D326B4E72060C09100D8EAEE /* SFParticleEffectsViewController.m */,
+				D326B4E82060C09100D8EAEE /* SFParticleEffectsViewController.xib */,
+			);
+			path = ParticleEffects;
+			sourceTree = "<group>";
+		};
+		D326B4E52060C07C00D8EAEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D326B4EE2060C84A00D8EAEE /* SFParticleEffectsView.h */,
+				D326B4EF2060C84A00D8EAEE /* SFParticleEffectsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D3BEF4AF204642BA00904267 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +195,8 @@
 		D3BEF4D12046433600904267 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				D326B4CF2060B7FC00D8EAEE /* UIKit */,
+				D3D65C14205A1086000554CE /* Runtime */,
 				D3BEF4FF20465B6000904267 /* Network */,
 				D3BEF4D22046433600904267 /* Tips */,
 			);
@@ -223,6 +312,30 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
+		D3D65C14205A1086000554CE /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				D3D65C53205A22B4000554CE /* SFRuntimeViewController.h */,
+				D3D65C54205A22B4000554CE /* SFRuntimeViewController.m */,
+				D3D65C15205A1086000554CE /* SendMessage */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		D3D65C15205A1086000554CE /* SendMessage */ = {
+			isa = PBXGroup;
+			children = (
+				D3D65C16205A10A0000554CE /* SFSendMsgViewController.h */,
+				D3D65C17205A10A0000554CE /* SFSendMsgViewController.m */,
+				D3D65C18205A10A0000554CE /* SFSendMsgViewController.xib */,
+				D30909EE206276F800AA751F /* Person.h */,
+				D30909EF206276F800AA751F /* Person.m */,
+				D3EEC998206342D200C95C36 /* UIImage+SFImage.h */,
+				D3EEC999206342D200C95C36 /* UIImage+SFImage.m */,
+			);
+			path = SendMessage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +397,9 @@
 			files = (
 				D3BEF4C8204642BA00904267 /* LaunchScreen.storyboard in Resources */,
 				D3BEF4F9204649FE00904267 /* SFSingletonModeViewController.xib in Resources */,
+				D3D65C1A205A10A0000554CE /* SFSendMsgViewController.xib in Resources */,
+				D326B4D62060B81200D8EAEE /* SFReplicatorDemoViewController.xib in Resources */,
+				D326B4EA2060C09100D8EAEE /* SFParticleEffectsViewController.xib in Resources */,
 				D3BEF50520465BAC00904267 /* SFGCDViewController.xib in Resources */,
 				D3BEF4C5204642BA00904267 /* Assets.xcassets in Resources */,
 			);
@@ -296,19 +412,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D65C55205A22B4000554CE /* SFRuntimeViewController.m in Sources */,
 				D36901192047925D00EBD20F /* SingletonModeTool.m in Sources */,
+				D326B4DA2060B82A00D8EAEE /* SFVCView.m in Sources */,
 				D3BEF4EB2046449700904267 /* SFNetworkNavigationController.m in Sources */,
 				D3BEF4F1204644B400904267 /* SFUIKitViewController.m in Sources */,
+				D326B4E92060C09100D8EAEE /* SFParticleEffectsViewController.m in Sources */,
+				D326B4D52060B81200D8EAEE /* SFReplicatorDemoViewController.m in Sources */,
 				D3BEF50420465BAC00904267 /* SFGCDViewController.m in Sources */,
 				D3BEF4F8204649FE00904267 /* SFSingletonModeViewController.m in Sources */,
+				D30909F0206276F800AA751F /* Person.m in Sources */,
 				D3BEF4E52046439600904267 /* SFTipsViewController.m in Sources */,
 				D3BEF4F4204644C300904267 /* SFUIKitNavigationController.m in Sources */,
 				D3BEF4E22046438900904267 /* SFTabBarController.m in Sources */,
 				D3BEF4DF2046437900904267 /* SFBaseViewController.m in Sources */,
 				D3BEF4CB204642BA00904267 /* main.m in Sources */,
+				D3D65C19205A10A0000554CE /* SFSendMsgViewController.m in Sources */,
 				D3BEF4E8204643A900904267 /* SFTipsNavigationController.m in Sources */,
 				D3BEF4EE204644A500904267 /* SFNetworkViewController.m in Sources */,
+				D3EEC99A206342D200C95C36 /* UIImage+SFImage.m in Sources */,
 				D3BEF4BD204642BA00904267 /* AppDelegate.m in Sources */,
+				D326B4F02060C84A00D8EAEE /* SFParticleEffectsView.m in Sources */,
 				D3BEF4FE204656D700904267 /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +561,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZZS76SEL5;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = iOSTips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brian.iOSTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,7 +577,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZZS76SEL5;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = iOSTips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brian.iOSTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SFSendMsgViewController">
+            <connections>
+                <outlet property="imageView" destination="j7l-UE-ZD4" id="zSW-ja-hRJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YOJ-Lt-fxE">
+                    <rect key="frame" x="86.5" y="258.5" width="201" height="150"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pex-nS-wJE">
+                            <rect key="frame" x="0.0" y="0.0" width="201" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="创建Objc对象">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="objcSendMessage:" destination="-1" eventType="touchUpInside" id="nMI-4v-9Eh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjv-Qa-3cw">
+                            <rect key="frame" x="0.0" y="40" width="201" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="创建Person对象，并发送消息">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="personSendMessage:" destination="-1" eventType="touchUpInside" id="Aw9-8A-ZNL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRh-NA-kz9">
+                            <rect key="frame" x="0.0" y="80" width="201" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="交换方法">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="exchangeMethod:" destination="-1" eventType="touchUpInside" id="T5Q-as-gth"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ri-35-HfR">
+                            <rect key="frame" x="0.0" y="120" width="201" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="动态添加方法">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="dynamicAddMethod:" destination="-1" eventType="touchUpInside" id="dUM-df-T0D"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Pex-nS-wJE" firstAttribute="centerX" secondItem="YOJ-Lt-fxE" secondAttribute="centerX" id="673-1E-Npg"/>
+                        <constraint firstItem="2ri-35-HfR" firstAttribute="centerX" secondItem="YOJ-Lt-fxE" secondAttribute="centerX" id="7ho-wz-hM6"/>
+                        <constraint firstItem="tRh-NA-kz9" firstAttribute="centerX" secondItem="YOJ-Lt-fxE" secondAttribute="centerX" id="zf4-Nd-mx0"/>
+                    </constraints>
+                </stackView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j7l-UE-ZD4">
+                    <rect key="frame" x="0.0" y="537" width="100" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="v9Q-vf-zxw"/>
+                        <constraint firstAttribute="width" constant="100" id="yqE-Sm-o8I"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YOJ-Lt-fxE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JSA-iq-0fN"/>
+                <constraint firstItem="j7l-UE-ZD4" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="niE-CR-hls"/>
+                <constraint firstItem="j7l-UE-ZD4" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="vwW-Yk-pt6"/>
+                <constraint firstItem="YOJ-Lt-fxE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="yfO-Nh-bMm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

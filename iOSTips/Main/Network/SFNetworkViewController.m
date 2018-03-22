@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     
+    self.header = @[@""];
     self.dataSource = @[@{@"GCD": [[SFGCDViewController alloc] init]}];
     
     [super viewDidLoad];

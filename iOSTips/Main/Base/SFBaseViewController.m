@@ -94,6 +94,10 @@ static NSString *kTableViewCell = @"kTableViewCell";
     return cell;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return self.header[section];
+}
+
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     UIViewController *vc = _viewControllers[indexPath.section][indexPath.row];

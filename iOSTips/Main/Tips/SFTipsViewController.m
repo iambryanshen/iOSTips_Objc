@@ -8,6 +8,7 @@
 
 #import "SFTipsViewController.h"
 #import "SFSingletonModeViewController.h"
+#import "SFRuntimeViewController.h"
 
 @interface SFTipsViewController ()
 
@@ -17,9 +18,10 @@
 
 - (void)viewDidLoad {
     
-    self.dataSource = @[@{@"单例模式": [[SFSingletonModeViewController alloc] init],},
-                        @{@"单例模式": [[SFSingletonModeViewController alloc] init],},
-                        @{@"单例模式": [[SFSingletonModeViewController alloc] init],}];
+    self.header = @[@"", @"Runtime"];
+    
+    self.dataSource = @[@{@"单例模式": [SFSingletonModeViewController new]},
+                        @{@"Runtime": [SFRuntimeViewController new]},];
     
     [super viewDidLoad];
 }
