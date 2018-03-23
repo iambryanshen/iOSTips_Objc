@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color</key>
+	<string>9778f0</string>
+	<key>tag_name</key>
+	<string>周末必去活动</string>
+	<key>section_count</key>
+	<string>26个精选</string>
+	<key>body</key>
+	<array>
+		<dict>
+			<key>section_title</key>
+			<string>童年女神樱桃小丸子25周年特展</string>
+			<key>imageURL</key>
+			<string>001</string>
+			<key>fav_count</key>
+			<string>23</string>
+			<key>poi_name</key>
+			<string>樱桃小丸子25周年博览会</string>
+		</dict>
+		<dict>
+			<key>section_title</key>
+			<string>夏日相约斑马周末市集</string>
+			<key>imageURL</key>
+			<string>002</string>
+			<key>fav_count</key>
+			<string>333</string>
+			<key>poi_name</key>
+			<string>斑马书店&quot;</string>
+		</dict>
+		<dict>
+			<key>section_title</key>
+			<string>百分百巴黎的建筑学</string>
+			<key>imageURL</key>
+			<string>003</string>
+			<key>fav_count</key>
+			<string>246</string>
+			<key>poi_name</key>
+			<string>法国文化中心</string>
+		</dict>
+		<dict>
+			<key>section_title</key>
+			<string>穿越时空去和白雪公主玩耍</string>
+			<key>imageURL</key>
+			<string>004</string>
+			<key>fav_count</key>
+			<string>443</string>
+			<key>poi_name</key>
+			<string>北京apm购物中心&quot;</string>
+		</dict>
+	</array>
+</dict>
+</plist>

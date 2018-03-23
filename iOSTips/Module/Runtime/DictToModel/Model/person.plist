@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color</key>
+	<string>9778f0</string>
+	<key>tag_name</key>
+	<string>周末必去活动</string>
+	<key>section_count</key>
+	<string>26个精选</string>
+	<key>body</key>
+	<dict>
+		<key>section_title</key>
+		<string>童年女神樱桃小丸子25周年特展</string>
+		<key>imageURL</key>
+		<string>001</string>
+		<key>fav_count</key>
+		<string>23</string>
+		<key>poi_name</key>
+		<string>樱桃小丸子25周年博览会</string>
+	</dict>
+</dict>
+</plist>

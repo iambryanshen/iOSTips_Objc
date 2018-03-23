@@ -22,7 +22,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YOJ-Lt-fxE">
-                    <rect key="frame" x="86.5" y="258.5" width="201" height="150"/>
+                    <rect key="frame" x="86.5" y="298.5" width="201" height="70"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pex-nS-wJE">
                             <rect key="frame" x="0.0" y="0.0" width="201" height="30"/>
@@ -44,31 +44,9 @@
                                 <action selector="personSendMessage:" destination="-1" eventType="touchUpInside" id="Aw9-8A-ZNL"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRh-NA-kz9">
-                            <rect key="frame" x="0.0" y="80" width="201" height="30"/>
-                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="交换方法">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </state>
-                            <connections>
-                                <action selector="exchangeMethod:" destination="-1" eventType="touchUpInside" id="T5Q-as-gth"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ri-35-HfR">
-                            <rect key="frame" x="0.0" y="120" width="201" height="30"/>
-                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="动态添加方法">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </state>
-                            <connections>
-                                <action selector="dynamicAddMethod:" destination="-1" eventType="touchUpInside" id="dUM-df-T0D"/>
-                            </connections>
-                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstItem="Pex-nS-wJE" firstAttribute="centerX" secondItem="YOJ-Lt-fxE" secondAttribute="centerX" id="673-1E-Npg"/>
-                        <constraint firstItem="2ri-35-HfR" firstAttribute="centerX" secondItem="YOJ-Lt-fxE" secondAttribute="centerX" id="7ho-wz-hM6"/>
-                        <constraint firstItem="tRh-NA-kz9" firstAttribute="centerX" secondItem="YOJ-Lt-fxE" secondAttribute="centerX" id="zf4-Nd-mx0"/>
                     </constraints>
                 </stackView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j7l-UE-ZD4">

@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D30909F0206276F800AA751F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D30909EF206276F800AA751F /* Person.m */; };
 		D326B4D52060B81200D8EAEE /* SFReplicatorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4D32060B81200D8EAEE /* SFReplicatorDemoViewController.m */; };
 		D326B4D62060B81200D8EAEE /* SFReplicatorDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D326B4D42060B81200D8EAEE /* SFReplicatorDemoViewController.xib */; };
 		D326B4DA2060B82A00D8EAEE /* SFVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4D92060B82A00D8EAEE /* SFVCView.m */; };
 		D326B4E92060C09100D8EAEE /* SFParticleEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4E72060C09100D8EAEE /* SFParticleEffectsViewController.m */; };
 		D326B4EA2060C09100D8EAEE /* SFParticleEffectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D326B4E82060C09100D8EAEE /* SFParticleEffectsViewController.xib */; };
 		D326B4F02060C84A00D8EAEE /* SFParticleEffectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D326B4EF2060C84A00D8EAEE /* SFParticleEffectsView.m */; };
+		D33737222064956E00D927A2 /* SFExchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33737202064956E00D927A2 /* SFExchangeMethodViewController.m */; };
+		D33737232064956E00D927A2 /* SFExchangeMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33737212064956E00D927A2 /* SFExchangeMethodViewController.xib */; };
+		D33737272064957E00D927A2 /* SFDynamicAddMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33737252064957D00D927A2 /* SFDynamicAddMethodViewController.m */; };
+		D33737282064957E00D927A2 /* SFDynamicAddMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33737262064957D00D927A2 /* SFDynamicAddMethodViewController.xib */; };
+		D337372C2064958D00D927A2 /* SFDynamicAddPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D337372A2064958D00D927A2 /* SFDynamicAddPropertyViewController.m */; };
+		D337372D2064958D00D927A2 /* SFDynamicAddPropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D337372B2064958D00D927A2 /* SFDynamicAddPropertyViewController.xib */; };
+		D33737302064966000D927A2 /* UIImage+SFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D337372F2064966000D927A2 /* UIImage+SFImage.m */; };
+		D3373736206496C200D927A2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D3373735206496C200D927A2 /* Person.m */; };
+		D33737392064975100D927A2 /* NSObject+SFProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D33737382064975100D927A2 /* NSObject+SFProperty.m */; };
+		D337373E2064A02200D927A2 /* SFAutoPropertyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D337373C2064A02200D927A2 /* SFAutoPropertyCodeViewController.m */; };
+		D337373F2064A02200D927A2 /* SFAutoPropertyCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D337373D2064A02200D927A2 /* SFAutoPropertyCodeViewController.xib */; };
+		D33737452064B18B00D927A2 /* property.plist in Resources */ = {isa = PBXBuildFile; fileRef = D33737442064B18B00D927A2 /* property.plist */; };
+		D33737492064B20900D927A2 /* SFProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D33737482064B20900D927A2 /* SFProperty.m */; };
+		D337374D2064B45200D927A2 /* NSDictionary+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = D337374C2064B45200D927A2 /* NSDictionary+Property.m */; };
+		D337375F2064EA4700D927A2 /* SFDictToModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D337375D2064EA4700D927A2 /* SFDictToModelViewController.m */; };
+		D33737602064EA4700D927A2 /* SFDictToModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D337375E2064EA4700D927A2 /* SFDictToModelViewController.xib */; };
+		D33737642064EA6900D927A2 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D33737632064EA6900D927A2 /* NSObject+Model.m */; };
+		D33737682064EDDC00D927A2 /* SFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D33737672064EDDC00D927A2 /* SFPerson.m */; };
+		D337376C2064F8C300D927A2 /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = D337376B2064F8C300D927A2 /* person.plist */; };
+		D337376F2064F8D800D927A2 /* SFBody.m in Sources */ = {isa = PBXBuildFile; fileRef = D337376E2064F8D800D927A2 /* SFBody.m */; };
 		D36901192047925D00EBD20F /* SingletonModeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D36901182047925D00EBD20F /* SingletonModeTool.m */; };
 		D3BEF4BD204642BA00904267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BEF4BC204642BA00904267 /* AppDelegate.m */; };
 		D3BEF4C5204642BA00904267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BEF4C4204642BA00904267 /* Assets.xcassets */; };
@@ -35,12 +54,9 @@
 		D3D65C19205A10A0000554CE /* SFSendMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D65C17205A10A0000554CE /* SFSendMsgViewController.m */; };
 		D3D65C1A205A10A0000554CE /* SFSendMsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D65C18205A10A0000554CE /* SFSendMsgViewController.xib */; };
 		D3D65C55205A22B4000554CE /* SFRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D65C54205A22B4000554CE /* SFRuntimeViewController.m */; };
-		D3EEC99A206342D200C95C36 /* UIImage+SFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EEC999206342D200C95C36 /* UIImage+SFImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D30909EE206276F800AA751F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		D30909EF206276F800AA751F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		D326B4D22060B81200D8EAEE /* SFReplicatorDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFReplicatorDemoViewController.h; sourceTree = "<group>"; };
 		D326B4D32060B81200D8EAEE /* SFReplicatorDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFReplicatorDemoViewController.m; sourceTree = "<group>"; };
 		D326B4D42060B81200D8EAEE /* SFReplicatorDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFReplicatorDemoViewController.xib; sourceTree = "<group>"; };
@@ -51,6 +67,39 @@
 		D326B4E82060C09100D8EAEE /* SFParticleEffectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFParticleEffectsViewController.xib; sourceTree = "<group>"; };
 		D326B4EE2060C84A00D8EAEE /* SFParticleEffectsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFParticleEffectsView.h; sourceTree = "<group>"; };
 		D326B4EF2060C84A00D8EAEE /* SFParticleEffectsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFParticleEffectsView.m; sourceTree = "<group>"; };
+		D337371F2064956E00D927A2 /* SFExchangeMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFExchangeMethodViewController.h; sourceTree = "<group>"; };
+		D33737202064956E00D927A2 /* SFExchangeMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFExchangeMethodViewController.m; sourceTree = "<group>"; };
+		D33737212064956E00D927A2 /* SFExchangeMethodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFExchangeMethodViewController.xib; sourceTree = "<group>"; };
+		D33737242064957D00D927A2 /* SFDynamicAddMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFDynamicAddMethodViewController.h; sourceTree = "<group>"; };
+		D33737252064957D00D927A2 /* SFDynamicAddMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFDynamicAddMethodViewController.m; sourceTree = "<group>"; };
+		D33737262064957D00D927A2 /* SFDynamicAddMethodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFDynamicAddMethodViewController.xib; sourceTree = "<group>"; };
+		D33737292064958D00D927A2 /* SFDynamicAddPropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFDynamicAddPropertyViewController.h; sourceTree = "<group>"; };
+		D337372A2064958D00D927A2 /* SFDynamicAddPropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFDynamicAddPropertyViewController.m; sourceTree = "<group>"; };
+		D337372B2064958D00D927A2 /* SFDynamicAddPropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFDynamicAddPropertyViewController.xib; sourceTree = "<group>"; };
+		D337372E2064966000D927A2 /* UIImage+SFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SFImage.h"; sourceTree = "<group>"; };
+		D337372F2064966000D927A2 /* UIImage+SFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SFImage.m"; sourceTree = "<group>"; };
+		D3373734206496C200D927A2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D3373735206496C200D927A2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D33737372064975100D927A2 /* NSObject+SFProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SFProperty.h"; sourceTree = "<group>"; };
+		D33737382064975100D927A2 /* NSObject+SFProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SFProperty.m"; sourceTree = "<group>"; };
+		D337373B2064A02200D927A2 /* SFAutoPropertyCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAutoPropertyCodeViewController.h; sourceTree = "<group>"; };
+		D337373C2064A02200D927A2 /* SFAutoPropertyCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAutoPropertyCodeViewController.m; sourceTree = "<group>"; };
+		D337373D2064A02200D927A2 /* SFAutoPropertyCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFAutoPropertyCodeViewController.xib; sourceTree = "<group>"; };
+		D33737442064B18B00D927A2 /* property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = property.plist; sourceTree = "<group>"; };
+		D33737472064B20900D927A2 /* SFProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFProperty.h; sourceTree = "<group>"; };
+		D33737482064B20900D927A2 /* SFProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFProperty.m; sourceTree = "<group>"; };
+		D337374B2064B45200D927A2 /* NSDictionary+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Property.h"; sourceTree = "<group>"; };
+		D337374C2064B45200D927A2 /* NSDictionary+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Property.m"; sourceTree = "<group>"; };
+		D337375C2064EA4700D927A2 /* SFDictToModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFDictToModelViewController.h; sourceTree = "<group>"; };
+		D337375D2064EA4700D927A2 /* SFDictToModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFDictToModelViewController.m; sourceTree = "<group>"; };
+		D337375E2064EA4700D927A2 /* SFDictToModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFDictToModelViewController.xib; sourceTree = "<group>"; };
+		D33737622064EA6900D927A2 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		D33737632064EA6900D927A2 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		D33737662064EDDC00D927A2 /* SFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFPerson.h; sourceTree = "<group>"; };
+		D33737672064EDDC00D927A2 /* SFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFPerson.m; sourceTree = "<group>"; };
+		D337376B2064F8C300D927A2 /* person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
+		D337376D2064F8D800D927A2 /* SFBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFBody.h; sourceTree = "<group>"; };
+		D337376E2064F8D800D927A2 /* SFBody.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFBody.m; sourceTree = "<group>"; };
 		D36901172047925D00EBD20F /* SingletonModeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonModeTool.h; sourceTree = "<group>"; };
 		D36901182047925D00EBD20F /* SingletonModeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonModeTool.m; sourceTree = "<group>"; };
 		D3BEF4B8204642BA00904267 /* iOSTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,8 +137,6 @@
 		D3D65C18205A10A0000554CE /* SFSendMsgViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFSendMsgViewController.xib; sourceTree = "<group>"; };
 		D3D65C53205A22B4000554CE /* SFRuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFRuntimeViewController.h; sourceTree = "<group>"; };
 		D3D65C54205A22B4000554CE /* SFRuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFRuntimeViewController.m; sourceTree = "<group>"; };
-		D3EEC998206342D200C95C36 /* UIImage+SFImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SFImage.h"; sourceTree = "<group>"; };
-		D3EEC999206342D200C95C36 /* UIImage+SFImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SFImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +207,106 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D337371C2064954700D927A2 /* ExchangeMethod */ = {
+			isa = PBXGroup;
+			children = (
+				D337371F2064956E00D927A2 /* SFExchangeMethodViewController.h */,
+				D33737202064956E00D927A2 /* SFExchangeMethodViewController.m */,
+				D33737212064956E00D927A2 /* SFExchangeMethodViewController.xib */,
+				D337372E2064966000D927A2 /* UIImage+SFImage.h */,
+				D337372F2064966000D927A2 /* UIImage+SFImage.m */,
+			);
+			path = ExchangeMethod;
+			sourceTree = "<group>";
+		};
+		D337371D2064954700D927A2 /* DynamicAddMethod */ = {
+			isa = PBXGroup;
+			children = (
+				D33737242064957D00D927A2 /* SFDynamicAddMethodViewController.h */,
+				D33737252064957D00D927A2 /* SFDynamicAddMethodViewController.m */,
+				D33737262064957D00D927A2 /* SFDynamicAddMethodViewController.xib */,
+				D3373734206496C200D927A2 /* Person.h */,
+				D3373735206496C200D927A2 /* Person.m */,
+			);
+			path = DynamicAddMethod;
+			sourceTree = "<group>";
+		};
+		D337371E2064954700D927A2 /* DynamicAddProperty */ = {
+			isa = PBXGroup;
+			children = (
+				D33737292064958D00D927A2 /* SFDynamicAddPropertyViewController.h */,
+				D337372A2064958D00D927A2 /* SFDynamicAddPropertyViewController.m */,
+				D337372B2064958D00D927A2 /* SFDynamicAddPropertyViewController.xib */,
+				D33737372064975100D927A2 /* NSObject+SFProperty.h */,
+				D33737382064975100D927A2 /* NSObject+SFProperty.m */,
+			);
+			path = DynamicAddProperty;
+			sourceTree = "<group>";
+		};
+		D337373A20649FDF00D927A2 /* AutoPropertyCode */ = {
+			isa = PBXGroup;
+			children = (
+				D337373B2064A02200D927A2 /* SFAutoPropertyCodeViewController.h */,
+				D337373C2064A02200D927A2 /* SFAutoPropertyCodeViewController.m */,
+				D337373D2064A02200D927A2 /* SFAutoPropertyCodeViewController.xib */,
+				D33737442064B18B00D927A2 /* property.plist */,
+				D33737462064B1F400D927A2 /* Model */,
+				D337374A2064B41100D927A2 /* AutoGeneratePropertyCode */,
+			);
+			path = AutoPropertyCode;
+			sourceTree = "<group>";
+		};
+		D33737462064B1F400D927A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D33737472064B20900D927A2 /* SFProperty.h */,
+				D33737482064B20900D927A2 /* SFProperty.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D337374A2064B41100D927A2 /* AutoGeneratePropertyCode */ = {
+			isa = PBXGroup;
+			children = (
+				D337374B2064B45200D927A2 /* NSDictionary+Property.h */,
+				D337374C2064B45200D927A2 /* NSDictionary+Property.m */,
+			);
+			path = AutoGeneratePropertyCode;
+			sourceTree = "<group>";
+		};
+		D337375B2064EA3A00D927A2 /* DictToModel */ = {
+			isa = PBXGroup;
+			children = (
+				D337375C2064EA4700D927A2 /* SFDictToModelViewController.h */,
+				D337375D2064EA4700D927A2 /* SFDictToModelViewController.m */,
+				D337375E2064EA4700D927A2 /* SFDictToModelViewController.xib */,
+				D33737612064EA6900D927A2 /* RuntimeModel */,
+				D33737652064EDC900D927A2 /* Model */,
+			);
+			path = DictToModel;
+			sourceTree = "<group>";
+		};
+		D33737612064EA6900D927A2 /* RuntimeModel */ = {
+			isa = PBXGroup;
+			children = (
+				D33737622064EA6900D927A2 /* NSObject+Model.h */,
+				D33737632064EA6900D927A2 /* NSObject+Model.m */,
+			);
+			path = RuntimeModel;
+			sourceTree = "<group>";
+		};
+		D33737652064EDC900D927A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D33737662064EDDC00D927A2 /* SFPerson.h */,
+				D33737672064EDDC00D927A2 /* SFPerson.m */,
+				D337376B2064F8C300D927A2 /* person.plist */,
+				D337376D2064F8D800D927A2 /* SFBody.h */,
+				D337376E2064F8D800D927A2 /* SFBody.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D3BEF4AF204642BA00904267 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +353,7 @@
 		D3BEF4D22046433600904267 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
+				D337373A20649FDF00D927A2 /* AutoPropertyCode */,
 				D3BEF4D32046433600904267 /* SingletonMode */,
 			);
 			path = Tips;
@@ -317,7 +465,11 @@
 			children = (
 				D3D65C53205A22B4000554CE /* SFRuntimeViewController.h */,
 				D3D65C54205A22B4000554CE /* SFRuntimeViewController.m */,
+				D337375B2064EA3A00D927A2 /* DictToModel */,
 				D3D65C15205A1086000554CE /* SendMessage */,
+				D337371C2064954700D927A2 /* ExchangeMethod */,
+				D337371D2064954700D927A2 /* DynamicAddMethod */,
+				D337371E2064954700D927A2 /* DynamicAddProperty */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -328,10 +480,6 @@
 				D3D65C16205A10A0000554CE /* SFSendMsgViewController.h */,
 				D3D65C17205A10A0000554CE /* SFSendMsgViewController.m */,
 				D3D65C18205A10A0000554CE /* SFSendMsgViewController.xib */,
-				D30909EE206276F800AA751F /* Person.h */,
-				D30909EF206276F800AA751F /* Person.m */,
-				D3EEC998206342D200C95C36 /* UIImage+SFImage.h */,
-				D3EEC999206342D200C95C36 /* UIImage+SFImage.m */,
 			);
 			path = SendMessage;
 			sourceTree = "<group>";
@@ -395,11 +543,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D337373F2064A02200D927A2 /* SFAutoPropertyCodeViewController.xib in Resources */,
+				D33737602064EA4700D927A2 /* SFDictToModelViewController.xib in Resources */,
 				D3BEF4C8204642BA00904267 /* LaunchScreen.storyboard in Resources */,
 				D3BEF4F9204649FE00904267 /* SFSingletonModeViewController.xib in Resources */,
 				D3D65C1A205A10A0000554CE /* SFSendMsgViewController.xib in Resources */,
+				D33737232064956E00D927A2 /* SFExchangeMethodViewController.xib in Resources */,
+				D337372D2064958D00D927A2 /* SFDynamicAddPropertyViewController.xib in Resources */,
+				D33737282064957E00D927A2 /* SFDynamicAddMethodViewController.xib in Resources */,
+				D33737452064B18B00D927A2 /* property.plist in Resources */,
 				D326B4D62060B81200D8EAEE /* SFReplicatorDemoViewController.xib in Resources */,
 				D326B4EA2060C09100D8EAEE /* SFParticleEffectsViewController.xib in Resources */,
+				D337376C2064F8C300D927A2 /* person.plist in Resources */,
 				D3BEF50520465BAC00904267 /* SFGCDViewController.xib in Resources */,
 				D3BEF4C5204642BA00904267 /* Assets.xcassets in Resources */,
 			);
@@ -416,24 +571,35 @@
 				D36901192047925D00EBD20F /* SingletonModeTool.m in Sources */,
 				D326B4DA2060B82A00D8EAEE /* SFVCView.m in Sources */,
 				D3BEF4EB2046449700904267 /* SFNetworkNavigationController.m in Sources */,
+				D33737272064957E00D927A2 /* SFDynamicAddMethodViewController.m in Sources */,
 				D3BEF4F1204644B400904267 /* SFUIKitViewController.m in Sources */,
+				D3373736206496C200D927A2 /* Person.m in Sources */,
 				D326B4E92060C09100D8EAEE /* SFParticleEffectsViewController.m in Sources */,
 				D326B4D52060B81200D8EAEE /* SFReplicatorDemoViewController.m in Sources */,
 				D3BEF50420465BAC00904267 /* SFGCDViewController.m in Sources */,
 				D3BEF4F8204649FE00904267 /* SFSingletonModeViewController.m in Sources */,
-				D30909F0206276F800AA751F /* Person.m in Sources */,
+				D337376F2064F8D800D927A2 /* SFBody.m in Sources */,
+				D337375F2064EA4700D927A2 /* SFDictToModelViewController.m in Sources */,
 				D3BEF4E52046439600904267 /* SFTipsViewController.m in Sources */,
 				D3BEF4F4204644C300904267 /* SFUIKitNavigationController.m in Sources */,
+				D33737492064B20900D927A2 /* SFProperty.m in Sources */,
 				D3BEF4E22046438900904267 /* SFTabBarController.m in Sources */,
 				D3BEF4DF2046437900904267 /* SFBaseViewController.m in Sources */,
 				D3BEF4CB204642BA00904267 /* main.m in Sources */,
+				D33737302064966000D927A2 /* UIImage+SFImage.m in Sources */,
 				D3D65C19205A10A0000554CE /* SFSendMsgViewController.m in Sources */,
+				D337372C2064958D00D927A2 /* SFDynamicAddPropertyViewController.m in Sources */,
+				D33737682064EDDC00D927A2 /* SFPerson.m in Sources */,
 				D3BEF4E8204643A900904267 /* SFTipsNavigationController.m in Sources */,
 				D3BEF4EE204644A500904267 /* SFNetworkViewController.m in Sources */,
-				D3EEC99A206342D200C95C36 /* UIImage+SFImage.m in Sources */,
+				D33737392064975100D927A2 /* NSObject+SFProperty.m in Sources */,
+				D337374D2064B45200D927A2 /* NSDictionary+Property.m in Sources */,
+				D33737222064956E00D927A2 /* SFExchangeMethodViewController.m in Sources */,
 				D3BEF4BD204642BA00904267 /* AppDelegate.m in Sources */,
+				D337373E2064A02200D927A2 /* SFAutoPropertyCodeViewController.m in Sources */,
 				D326B4F02060C84A00D8EAEE /* SFParticleEffectsView.m in Sources */,
 				D3BEF4FE204656D700904267 /* Foundation+Log.m in Sources */,
+				D33737642064EA6900D927A2 /* NSObject+Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,6 @@
 
 #import "Person.h"
 
-
 @interface SFSendMsgViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -102,22 +101,5 @@
  
  所有的OC方法都会转换成函数实现。所以方法调用的流程最后一步是通过方法名在程序代码去区找到对应的函数实现
  */
-
-- (IBAction)exchangeMethod:(id)sender {
-    
-    /*
-     如果希望交换方法起作用的话，比如希望让系统方法：[UIImage imagedName: @"imagename"]，使用自己的实现，需要在类UIImage加载进内存前起作用。所以需要在load方法里交换方法，因为load方法在类被加载进内存前调用
-     */
-    
-    self.imageView.image = [UIImage imageNamed:@"卡哇伊"];
-}
-
-- (IBAction)dynamicAddMethod:(id)sender {
-    
-    Person *p = [Person new];
-    
-    //[p performSelector:@selector(aaaa)];
-    [p performSelector:@selector(bbbb:) withObject:@10];
-}
 
 @end
