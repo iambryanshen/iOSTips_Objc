@@ -42,6 +42,7 @@
 
 + (instancetype)modelWithDict:(NSDictionary *)dict {
     
+    
     id objc = [[self alloc] init];
     
     /*

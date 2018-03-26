@@ -465,11 +465,11 @@
 			children = (
 				D3D65C53205A22B4000554CE /* SFRuntimeViewController.h */,
 				D3D65C54205A22B4000554CE /* SFRuntimeViewController.m */,
-				D337375B2064EA3A00D927A2 /* DictToModel */,
 				D3D65C15205A1086000554CE /* SendMessage */,
 				D337371C2064954700D927A2 /* ExchangeMethod */,
 				D337371D2064954700D927A2 /* DynamicAddMethod */,
 				D337371E2064954700D927A2 /* DynamicAddProperty */,
+				D337375B2064EA3A00D927A2 /* DictToModel */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
